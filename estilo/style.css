@@ -15,18 +15,24 @@
 
 
 }
+*{
+    margin: 0;
+    padding: 0;
 
-
-
-* {
-    margin: 0px;
-    
-    padding: 0px;
 }
+
+
+
+
 html, body {
     background-color: darkgray;
     min-height: 100vh;
     font-family: var(--font1);
+
+ 
+   
+
+
     
 }
 header{
@@ -65,8 +71,9 @@ section.imagem{
     box-shadow:  inset 6px 6px 13px 0 rgba(0, 0, 0, 0.616);
     background-size: cover;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+ 
+   
+  
     
 
 }
@@ -81,10 +88,8 @@ section{
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.253);
-    /*width: 400px; ao invez de usar esse usa inlineblock*/
-    display: inline-block;
-    padding: 10px;
+   
+   
     background-color: rgba(0, 0, 0, 0.582);
     /*width: 400px; ao invez de usar esse usa inlineblock*/
     display: inline-block;
@@ -106,7 +111,8 @@ section > p{
 section#img01{
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
-   /* background-size: cover; */
+   /*background-size: cover; */
+
 
 
 
@@ -116,12 +122,14 @@ section#img01{
 section#img02{
  background-image: url('../imagens/background002.jpg');
  /*background-size: cover; */
+ 
 
 }
 footer{
     background-color: black;
     text-align: center;
-    color: white;
+   padding: 10px;
+   
    
     
 
