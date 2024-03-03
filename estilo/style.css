@@ -18,12 +18,12 @@
 
 
 
-*{
-    margin: 0;
+* {
+    margin: 0px;
     
-    padding: 0;
+    padding: 0px;
 }
-body{
+html, body {
     background-color: darkgray;
     min-height: 100vh;
     font-family: var(--font1);
@@ -65,8 +65,9 @@ section.imagem{
     box-shadow:  inset 6px 6px 13px 0 rgba(0, 0, 0, 0.616);
     background-size: cover;
     background-attachment: fixed;
-    padding-left: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    
 
 }
 section{
@@ -121,8 +122,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
-    padding: 10px;
-    
+   
     
 
 
